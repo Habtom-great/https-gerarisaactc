@@ -1,0 +1,21 @@
+#form {
+    width: 60%; /* Only set the width to 60% so it would be centered vertically */
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto; /* Items will be centered vertically when margin-top and margin-left is set to auto */
+    transition: all .4s;
+}
+
+.centeredForm {
+    margin: 20px;
+    margin-bottom: 40px;
+    padding: 40px 10px;
+    border-radius: 70px;
+    transition: all .4s;
+    background-color: #F0F0F0;
+}
+
+/* This will transform the form width into full width when device width is smaller than 768px */
+@media only screen and (max-width: 768px) {
+    #form { width: auto; margin-left: 10px; margin-right: 10px; }
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerar Isaac College Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Gerar Isaac College</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#online-exam">Online Exam</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video-training">Video Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Email contact Form/index.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="students/index.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container text-center text-white">
+            <h1>Welcome to Gerar Isaac College</h1>
+            <p>Your gateway to a brighter future</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- Courses Section -->
+        <section id="courses" class="my-5">
+            <h2>Courses</h2>
+            <p>Explore our variety of courses.</p>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="assets/images/library.png" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Accounting</h5>
+                            <p class="card-text">Learn essential accounting principles and practices.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="assets/images/cafeteria.png" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Electrical Engineering</h5>
+                            <p class="card-text">Explore the world of electrical engineering and its applications.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="assets/images/certificate.jpg" class="card-img-top" alt="Course Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Website Development </h5>
+                            <p class="card-text">Short description of the course.</p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Online Exam Section -->
+        <section id="online-exam" class="my-5">
+            <h2>Online Exam</h2>
+            <p>Participate in our online exams.</p>
+            <!-- Online exam form and content here -->
+        </section>
+
+        <!-- Video Training Section -->
+        <section id="video-training" class="my-5">
+            <h2>Video Training</h2>
+            <p>Watch our training videos.</p>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/example1" title="Training Video 1" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/example2" title="Training Video 2" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="my-5">
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <form id="contact form">
+                <form action="contact.php" method="post">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="email" placeholder="Email" name="email" required>
+                <textarea placeholder="Message" name="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">SEND MESSAGE</button>
+            </form>
+        </section>
+
+
+        <!-- Register Section -->
+      
+        <section id="register" class="my-5">
+       <section class="register">
+            <h2>Register</h2>
+            <form action="register.php" method="post">
+                <form id="Register Form">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <input type="password" placeholder="password" name="password" required>
+                    <button type="REGISTER" class="register-btn blue-btn">REGISTER</button>
+                </form>
+        </section>
+
+         <!-- Login Modal -->
+
+         <section id="register" class="my-5">
+             <section class="login">
+                <h1>Login</h1>
+                <form id="Login form">
+                    <form action="login.php" method="post">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="Email" name="email" required>
+                    <input type="password" placeholder="password" name="password" required>
+                    <button type="Login" class="login-hero-btn brown-btn">Login</button>
+                </form>
+            </section>
+    <!-- Online Exam Section -->
+    <section class="exam-section">
+        <h1>Online Exam</h1>
+        <div class="exam-container">
+            <form id="examForm">
+                <div class="question">
+                    <p>1. What is the capital of France?</p>
+                    <input type="radio" name="q1" value="Paris"> Paris<br>
+                    <input type="radio" name="q1" value="London"> London<br>
+                    <input type="radio" name="q1" value="Berlin"> Berlin<br>
+                    <input type="radio" name="q1" value="Madrid"> Madrid<br>
+                </div>
+                <div class="question">
+                    <p>2. What is the sum of 2 + 2?</p>
+                    <input type="radio" name="q2" value="3"> 3<br>
+                    <input type="radio" name="q2" value="4"> 4<br>
+                    <input type="radio" name="q2" value="5"> 5<br>
+                    <input type="radio" name="q2" value="6"> 6<br>
+                </div>
+                <!-- Add more questions as needed -->
+                <button type="submit" class="hero-btn red-btn">SUBMIT EXAM</button>
+            </form>
+            <div id="examResult"></div>
+        </div>
+    </section>
+
+    
+
+    <section class="video">
+        <h1>Campus Tour</h1>
+        <video controls>
+            <source src="videos/campus-tour.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eos architecto dolor ad commodi suscipit delectus vitae necessitatibus! Vel perspiciatis quisquam consequatur nobis magnam temporibus non ex id neque ad.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+ <!-- language Section -->
+         <section id="lang.php" class="my-5">
+                        <h2>Language</h2>
+                        <form action="lang.php" method="post">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id             
+        
